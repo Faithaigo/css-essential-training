@@ -1,0 +1,69 @@
+/*Color palette
+#252323 - Black
+#2F3061 - Dark Blue
+#F5F1ED - white smoke
+#53A2BE - Light blue
+#FF9E1F - yellow*/
+
+
+/*Global styles*/
+body{
+    color: #252323;
+    margin: 0; /*romoves space from the left and right side of the body*/
+    padding: 0;
+}
+img{
+    width: 300px;
+}
+a{
+    color: #ffe66d;
+}
+a:hover{
+    text-decoration: none;
+}
+h2{
+    margin: 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/*Profile*/
+header {
+    background:#2F3061;
+    color: #f7fff7;
+}
+
+/*Projects*/
+.projects{
+    background:#F5F1ED ;
+}
+.projects a {
+    color: #2F3061;
+}
+.projects .btn{
+    color:#f7fff7 ;
+    background:#2F3061 ;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgba(47, 48, 97,80%);
+}
+
+/*Work experience*/
+.work-experience{
+    background: #53A2BE ;
+}
+
+/*Education*/
+
+/*contact*/
+footer{
+    background: #252323;
+    color: #f7fff7;
+}
