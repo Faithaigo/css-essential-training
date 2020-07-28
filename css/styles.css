@@ -7,6 +7,12 @@
 
 
 /*Global styles*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
 body{
     color: #252323;
     margin: 0; /*romoves space from the left and right side of the body*/
@@ -65,6 +71,18 @@ header {
 }
 .projects .btn:hover{
     background: rgba(47, 48, 97,80%);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #343434 ;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
 }
 
 /*Work experience*/

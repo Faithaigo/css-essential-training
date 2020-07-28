@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .wrapper{
+            /*position: relative;*/
+        }
+        .absolute-content{
+            position: absolute;
+            background: #ffe66d;
+            /*padding: 10px;*/
+            top:57px;
+            left: 0;
+            bottom: 0;
+            width: 250px;
+            z-index: 200;
+
+        }
+        .fixed-content{
+            position: fixed;
+            background: #2F3061;
+            top: 0;
+            left: 250px;
+            right: 0;
+            padding: 20px;
+
+        }
+        .text{
+            background: #53A2BE;
+            padding: 20px;
+            position: relative;
+        }
+        .content{
+            margin-left: 230px;
+            padding: 20px;
+            background: aqua;
+            position: relative;
+            z-index: 300;
+
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="text">hiiiii</div>
+    <div class="absolute-content">hi</div>
+    <div class="fixed-content">hello</div>
+    <div class="content">yellow</div>
+</div>
+</body>
+</html>
