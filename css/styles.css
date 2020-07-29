@@ -52,6 +52,7 @@ h1,h2{
 header {
     background:#2F3061;
     color: #f7fff7;
+    text-align: center;
 }
 
 /*Projects*/
@@ -89,6 +90,12 @@ header {
 .work-experience{
     background: #53A2BE ;
 }
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    border-bottom: 1px dashed #343434 ;
+}
 
 /*Education*/
 
@@ -96,4 +103,15 @@ header {
 footer{
     background: #252323;
     color: #f7fff7;
+    text-align: center;
+}
+.contact-list{
+    list-style-type:none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
 }
